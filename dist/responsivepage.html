@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Web Page</title>
+</head>
+<body class="bg-white ">
+    <!-- navbar section -->
+     <nav class=" w-full h-14 bg-slate-50 flex justify-between px-4 md:px-4">
+        <div class="text-2xl font-bold text-black cursor-pointer">Coffee</div>
+        <ul class="hidden md:flex space-x-4 font-semibold ">
+            <li class="mx-[10px] cursor-pointer font-semibold">Home</li>
+            <li class="mx-[10px] cursor-pointer font-semibold">Order</li>
+            <li class="mx-[10px] cursor-pointer font-semibold">Store</li>
+            <li class="mx-[10px] cursor-pointer font-semibold">Contact Us</li>
+        </ul>
+        <div class="hidden md:block px-2 py-2 bg-black text-white rounded font-bold cursor-pointer mt-2 mb-2 p-1 hover:bg-green-700 hover:text-white">Login/Signup</div>
+        <!-- 3 lines -->
+        <div class="md:hidden">
+            <a class="text-4xl font-bold" href="#">&#8801</a> 
+        </div>
+     </nav>
+
+     <!-- header -->
+      <header class="w-full h-auto">
+        <img class="w-full hidden md:block" src="https://img.freepik.com/free-psd/social-media-promo-template-coffee-shop_23-2150891787.jpg?t=st=1739448636~exp=1739452236~hmac=2566a3d7ecf943b4a22fa24211f830c096c279ab6047b0d2129efe04575d7d81&w=1380">
+        <img class=" w-full md:hidden" src="https://img.freepik.com/free-psd/vertical-poster-template-coffee-shop_23-2150891777.jpg?t=st=1739448693~exp=1739452293~hmac=ceaf4b870079823db87c51b96513d05115ac979ffb04c45c9feac36242af310a&w=740 ">
+      </header>
+
+      <!-- our coffee -->
+       <div class="h-auto w-100 flex flex-wrap flex-col items-center text-center p-10">
+             <!-- for heading and base line -->
+            <div class="w-full h-auto flex flex-wrap flex-col items-center">
+                <p class="text-black text-center font-bold text-3xl md:text-4xl">How It Works</p>
+                <div class="h-1 w-36 ml-8 bg-green-600 mt-2 rounded-2xl md:mt-4 mb-12"></div>
+            </div>
+            <!-- images and text -->
+            <div class="w-full flex flex-wrap justify-evenly">
+                <div class="w-46 flex flex-col items-center mb-12">
+                    <img class="w-44 h-44" src="https://mtpak.coffee/wp-content/uploads/2021/07/New-Project-1-11.18.03.jpg" alt="">
+                    <p class="text-3xl font-semibold text-black">Sourcing</p>
+                </div>
+                <!-- 2nd -->
+                <div class="w-46 flex flex-col items-center mb-12">
+                    <img class="w-44 h-44" src="https://naivo.in/wp-content/uploads/2024/08/image-04-04-2024-10_09_16_001.webp" alt="">
+                    <p class="text-3xl font-semibold text-black">Roasting</p>
+                </div>
+                <!-- 3rd -->
+                <div class="w-46 flex flex-col items-center mb-12">
+                    <img class="w-44 h-44" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt5za4-pocBemkeQ7wjMqkztkXJFqb2aBvdg&s" alt="">
+                    <p class="text-3xl font-semibold text-black">Delivery</p>
+                </div>
+            </div>
+        </div>    
+
+
+      <!--Popular menu  -->
+      <div class="h-auto w-100 flex flex-wrap flex-col items-center text-center p-10">
+        <!-- for heading and base line -->
+          <div class="w-full h-auto flex flex-wrap flex-col items-center">
+             <p class="text-black text-center font-bold text-3xl md:text-4xl">New Coffee</p>
+             <div class="h-1 w-36 ml-7 bg-green-600 mt-2 rounded-2xl md:mt-4 mb-12"></div>
+          </div>   
+          <div class="w-auto h-auto flex flex-wrap justify-evenly">
+          
+          <div class="w-64 flex flex-col items-center mb-12 border-black border-2 rounded-md p-2">
+             <img class="w-48 h-48" src="https://midwestniceblog.com/wp-content/uploads/2024/01/instant-espresso-powder-recipe.jpg" alt="">
+             <p class="text-3xl font-semibold text-black">Espresso Coffee</p>
+          </div>
+          <div class="w-64 flex flex-col items-center mb-12 border-black border-2 rounded-md p-2">
+            <img class="w-48 h-48" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBkz3LO2sI0lW0vC3psDCyZ80aDzckBEyyGg&s" alt="">
+            <p class="text-3xl font-semibold text-black">Americano Coffee</p>
+         </div>
+         <div class="w-64 flex flex-col items-center mb-12 border-black border-2 rounded-md p-2">
+            <img class="w-48 h-48" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuAD6br-9prC2Ae2CJCXu4e6bHMduWRiFUCt684orEVhJCByfuyutonV2wy_HC0f00rps&usqp=CAU" alt="">
+            <p class="text-3xl font-semibold text-black">Cappuccino Coffee</p>
+         </div>
+        </div>
+      </div>
+
+    <!-- Footer -->
+    <footer class="w-full bg-green-800 px-4 text-white pt-8 flex flex-col md:flex-row flex-wrap justify-between md:px-12">
+        <div>
+            <img class="w-35 h-20" src="https://graphicsfamily.com/wp-content/uploads/edd/2021/10/Coffee-Shop-Logo-1180x885.jpg" alt="">
+             <p class="my-4 text-md font-normal">Coffee Shop</p>
+        </div>
+        <div class="m-2">
+             <p>Company</p>
+             <p>About Us</p>
+             <p>Order</p>
+        </div>
+        <div class="m-2">
+            <p>Our Policies</p>
+            <p>Terms & Conditions</p>
+            <p>Privacy Policy</p>
+       </div>
+       <div class="m-2">
+        <h2 class="font-bold text-lg ">Follow Us</h2>
+            <p>Instagram</p>
+            <p>Facebook</p>
+            <p>You Tube</p>
+            
+       </div>
+    </footer>
+</body>
+</html>
